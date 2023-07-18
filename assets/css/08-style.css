@@ -1,0 +1,15 @@
+/*Bu bir yorum satiridir 
+*/
+nav.nav-el{
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+}
+
+.active{
+    background-color: gray;
+    text-align: center;
+    color: wheat;
+    padding: 1.2rem;
+    
+}

@@ -1,0 +1,19 @@
+div.kutu1{
+    background-color: aqua;
+    margin-top: 2rem ;
+    margin-bottom: 2rem;
+}
+div.kutu2{
+    background-color: blueviolet;
+    padding: 3rem 5rem 4rem 7rem;
+}
+
+em{
+    margin: 12rem;
+}
+
+b{
+background-color: blue;
+padding: 20px;
+margin: 20px;
+}
