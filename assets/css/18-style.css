@@ -1,0 +1,28 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+
+}
+a{
+    text-decoration: none;
+}
+
+header.header-el{
+    background-color: rgb(93, 88, 88);
+    text-align: center;
+    padding: 1rem;
+}
+.header-el a{
+    color: white;
+    padding: 15px;
+    margin: 10px;
+}
+.header-el a:hover{
+    color: #FD819B;
+    
+}
+
+.header-el img{
+    width: 25px;
+    height: 20px;
+}
