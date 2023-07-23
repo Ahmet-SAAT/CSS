@@ -1,0 +1,33 @@
+p.about::first-letter{
+    color: red;
+    font-size: 2.6rem;
+}
+
+p.about::first-line{
+    color: red;
+}
+p.about::selection{
+    background-color: rgb(9, 232, 28);
+}
+.liste li::marker{
+color: red;
+font-size: 1.7rem;
+}
+.baslik::before{
+content: "🛩️";
+margin-right: 0.5rem;
+}
+.baslik::after{
+content: "";
+margin-right: 0.5rem;
+display: inline-block;
+width: 15px;
+height: 10px;
+background-color: red;
+}
+
+.about span::after{
+    content: "#";
+    color: red;
+    font-size: 3rem;
+}

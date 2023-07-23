@@ -1,0 +1,46 @@
+.form-login input[type="text"]{
+background-color: aqua;
+border: none;
+}
+
+.form-login input[type="text"]:focus{
+
+    background-color: blueviolet;
+}
+
+a:hover{
+color: green;
+background-color: rgb(192, 163, 47);
+}
+
+a:active{
+    background-color: tomato;
+}
+
+.chk-menu:checked{
+    outline:2px solid red;
+}
+
+ul.list li:first-child{
+    color: red;
+    font-size: 1.2rem;
+    font-style:italic;
+}
+ul.list li:last-child{
+    color: gold;
+}
+ul.list li:nth-child(3){
+    color: rgb(211, 33, 148);
+}
+.tablo tr:nth-child(odd){
+   background-color: rgb(26, 40, 203);
+}
+.tablo tr:nth-child(even){
+    background-color: rgb(66, 185, 39);
+}
+.tablo tr:nth-child(3){
+    background-color: rgb(238, 45, 48);
+}
+.tablo td:nth-child(3){
+    background-color: rgb(181, 186, 22);
+}
