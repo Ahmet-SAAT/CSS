@@ -1,0 +1,65 @@
+
+
+
+.baslik{
+    background-color: rgb(9, 9, 9);
+    color: white;
+    text-align: left;
+   
+}
+
+.baslik :nth-child(3){
+   text-align: center;
+}
+.baslik :nth-child(4){
+   text-align:right;
+}
+.baslik :nth-child(5){
+   text-align:right;
+}
+td{
+    text-align: left;
+}
+td:nth-child(3){
+text-align: center;
+}
+td:nth-child(4){
+text-align: right;
+}
+td:nth-child(5){
+text-align: right;
+}
+tbody tr>tr:nth-child(odd){
+    background-color: gray;
+}
+tbody >tr:nth-child(even){
+background-color: lightgray;
+}
+
+.top{
+    color: white;
+    background-color: black;
+ 
+}
+.top>td{
+    text-align: right;
+
+}
+
+div{
+   margin-left:5.6rem ;
+   margin-top: 1rem;
+   
+   display: inline-block;
+   
+}
+a{
+    margin-right:1rem ;
+    background-color:red ;
+    color: white;
+}
+i{
+    color: black;
+    margin:0 0.7rem ;
+}
+
