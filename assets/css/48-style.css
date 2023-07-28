@@ -1,0 +1,13 @@
+.title1{
+   text-transform: uppercase; 
+   font-size: 4rem;
+   color: aliceblue;
+   text-shadow: 0 0 7px black; 
+
+}
+.title2{
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: rgba(17, 205, 39, 0.816);
+    text-shadow:0 0 7px black,2px 2px 4px rgb(237, 244, 19),7px 3px 9px purple;
+}

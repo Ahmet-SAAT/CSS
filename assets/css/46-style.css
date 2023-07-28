@@ -1,0 +1,60 @@
+.box{
+    width: 120px;
+    height: 120px;
+    margin: 3rem auto;
+
+}
+.box1{
+    background-color: blue;
+    transition: background-color 2s;
+    -webkit-transition: background-color 2s;
+    -moz-transition: background-color 2s;
+    -ms-transition: background-color 2s;
+    -o-transition: background-color 2s;
+}
+.box1:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.box2{
+    background-color: crimson;
+    transition: transform 0.5s;
+    -webkit-transition: transform 0.5s;
+    -moz-transition: transform 0.5s;
+    -ms-transition: transform 0.5s;
+    -o-transition: transform 0.5s;
+}
+.box2:hover{
+    transform: rotate(60deg);
+    -webkit-transform: rotate(60deg);
+    -moz-transform: rotate(60deg);
+    -ms-transform: rotate(60deg);
+    -o-transform: rotate(60deg);
+}
+.box3{
+    background-color: seagreen;
+    transition: transform 0.7s,background-color 1.5s ease-in-out;
+    -webkit-transition: transform 0.7s,background-color 1.5s ease-in-out;
+    -moz-transition: transform 0.7s,background-color 1.5s ease-in-out;
+    -ms-transition: transform 0.7s,background-color 1.5s ease-in-out;
+    -o-transition: transform 0.7s,background-color 1.5s ease-in-out;
+}
+.box3:active{
+    transform: scale(1.5) rotate(45deg);
+    cursor: pointer;
+    background-color: chocolate;
+  
+}
+
+
+.box4{
+   background-color: yellow;
+   transition: all 1s;
+   transform:rotate(10deg);
+  
+}
+.box4:hover{
+    transform: rotate(190deg) skew(45deg);
+    background-color: hotpink;
+    border-radius: 50%;  
+}

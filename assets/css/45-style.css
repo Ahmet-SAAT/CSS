@@ -1,0 +1,14 @@
+div.box{
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    transform: translate(300px,500px);
+    -webkit-transform: translate(20%,20%);
+    -moz-transform: translate(300px,500px);
+    -ms-transform: translate(300px,500px);
+    -o-transform: translate(300px,500px);
+}
+.iphone14{
+   transform: rotate(-60deg) translate(80%) scale(0.5);
+
+}
